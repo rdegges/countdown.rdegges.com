@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Samantha's Freedom Countdown</title>
+    <meta
+      name="description"
+      content="A funky, retro countdown to Samantha's last day at Unity."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Orbitron:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="glow-orb orb-one"></div>
+    <div class="glow-orb orb-two"></div>
+    <div class="glow-orb orb-three"></div>
+
+    <main class="page">
+      <header class="hero">
+        <div class="badge">Countdown to Samantha's grand mic drop</div>
+        <h1>
+          Freedom Countdown
+          <span class="accent">for Samantha</span>
+        </h1>
+        <p class="subtitle">
+          She started at Unity on September 1, 2019. We're counting every neon
+          second until she walks out at <strong>5:00 PM Pacific</strong>.
+        </p>
+        <a
+          class="cta-link"
+          href="https://www.linkedin.com/in/samanthadegges/"
+          target="_blank"
+          rel="noreferrer"
+          >Connect on LinkedIn</a
+        >
+
+        <section class="countdown" aria-label="Countdown to March 13, 2026">
+          <div class="time-card">
+            <span class="time-value" id="days">--</span>
+            <span class="time-label">Days</span>
+          </div>
+          <div class="time-card">
+            <span class="time-value" id="hours">--</span>
+            <span class="time-label">Hours</span>
+          </div>
+          <div class="time-card">
+            <span class="time-value" id="minutes">--</span>
+            <span class="time-label">Minutes</span>
+          </div>
+          <div class="time-card">
+            <span class="time-value" id="seconds">--</span>
+            <span class="time-label">Seconds</span>
+          </div>
+        </section>
+
+        <div class="target-line">
+          Target moment: <span id="target-date">March 13, 2026 · 5:00 PM PT</span>
+        </div>
+        <div class="status" id="status"></div>
+      </header>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Time at Unity (and counting)</h2>
+          <p class="panel-subtitle">Live tally since day one.</p>
+        </div>
+        <div class="stat-grid">
+          <div class="stat">
+            <span class="stat-value" id="tenure-years">--</span>
+            <span class="stat-label">Years</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="tenure-months">--</span>
+            <span class="stat-label">Months</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="tenure-days">--</span>
+            <span class="stat-label">Days</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="tenure-hours">--</span>
+            <span class="stat-label">Hours</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="tenure-minutes">--</span>
+            <span class="stat-label">Minutes</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="tenure-seconds">--</span>
+            <span class="stat-label">Seconds</span>
+          </div>
+        </div>
+        <div class="panel-footer">
+          Timezone: America/Los_Angeles · counting from September 1, 2019.
+        </div>
+      </section>
+
+      <section class="panel secondary">
+        <div class="panel-header">
+          <h2>Total Unity chapter by the finish line</h2>
+          <p class="panel-subtitle">How long this epic era lasts in full.</p>
+        </div>
+        <div class="stat-grid compact">
+          <div class="stat">
+            <span class="stat-value" id="total-years">--</span>
+            <span class="stat-label">Years</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="total-months">--</span>
+            <span class="stat-label">Months</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="total-days">--</span>
+            <span class="stat-label">Days</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="total-hours">--</span>
+            <span class="stat-label">Hours</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="total-minutes">--</span>
+            <span class="stat-label">Minutes</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="total-seconds">--</span>
+            <span class="stat-label">Seconds</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel highlights">
+        <div class="panel-header">
+          <h2>Unity highlights during Samantha's chapter</h2>
+          <p class="panel-subtitle">
+            A ticket-stub timeline of milestones, ads wins, and tech glow-ups.
+          </p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">
+              <span class="timeline-month">Sep</span>
+              <span class="timeline-day">01</span>
+              <span class="timeline-year">2019</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-tag tag-heart">Samantha</span>
+                <time datetime="2019-09-01">Sep 1, 2019</time>
+              </div>
+              <h3>Chapter begins at Unity</h3>
+              <p>Samantha joins the Unity Ads crew. The story kicks off.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">
+              <span class="timeline-month">Sep</span>
+              <span class="timeline-day">17</span>
+              <span class="timeline-year">2020</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-tag tag-corporate">Milestone</span>
+                <time datetime="2020-09-17">Sep 17, 2020</time>
+              </div>
+              <h3>Unity prices its IPO</h3>
+              <p>
+                Unity priced its IPO at $52 per share and set trading for the NYSE
+                as <strong>U</strong> the next day.
+              </p>
+              <a
+                href="https://www.businesswire.com/news/home/20200917006027/en/Unity-Announces-Pricing-of-Initial-Public-Offering"
+                target="_blank"
+                rel="noreferrer"
+                >IPO announcement</a
+              >
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">
+              <span class="timeline-month">Dec</span>
+              <span class="timeline-day">01</span>
+              <span class="timeline-year">2021</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-tag tag-corporate">Acquisition</span>
+                <time datetime="2021-12-01">Dec 1, 2021</time>
+              </div>
+              <h3>Weta Digital tools join Unity</h3>
+              <p>
+                Unity completed the $1.625B acquisition of Weta Digital’s tools,
+                pipeline, and engineering talent.
+              </p>
+              <a
+                href="https://investors.unity.com/news/news-details/2021/Unity-Completes-Acquisition-of-Weta-Digitals-Tools-Pipeline-and-Engineering-Talent/default.aspx"
+                target="_blank"
+                rel="noreferrer"
+                >Weta Digital release</a
+              >
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">
+              <span class="timeline-month">Nov</span>
+              <span class="timeline-day">07</span>
+              <span class="timeline-year">2022</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-tag tag-corporate">Merger</span>
+                <time datetime="2022-11-07">Nov 7, 2022</time>
+              </div>
+              <h3>Unity merges with ironSource</h3>
+              <p>
+                The merger closed, expanding Unity’s end-to-end platform for
+                building, running, and growing mobile games.
+              </p>
+              <a
+                href="https://investors.unity.com/news/news-details/2022/Unity-Completes-Merger-with-ironSource/default.aspx"
+                target="_blank"
+                rel="noreferrer"
+                >ironSource merger update</a
+              >
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">
+              <span class="timeline-month">Oct</span>
+              <span class="timeline-day">28</span>
+              <span class="timeline-year">2024</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-tag tag-tech">Tech</span>
+                <time datetime="2024-10-28">Oct 28, 2024</time>
+              </div>
+              <h3>Unity Ads hits 10M ops/sec</h3>
+              <p>
+                Unity Ads shared a deep dive on migrating to Google Cloud
+                Memorystore for Redis Cluster and reaching 10 million operations
+                per second.
+              </p>
+              <a
+                href="https://cloud.google.com/blog/products/databases/unity-ads-powers-up-to-10m-operations-per-second-with-memorystore"
+                target="_blank"
+                rel="noreferrer"
+                >Read the tech blog</a
+              >
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">
+              <span class="timeline-month">Jun</span>
+              <span class="timeline-day">11</span>
+              <span class="timeline-year">2025</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-tag tag-ads">Ads</span>
+                <time datetime="2025-06-11">Jun 11, 2025</time>
+              </div>
+              <h3>Audience Hub launches</h3>
+              <p>
+                Unity launched Audience Hub to deliver privacy-first, high-intent
+                audiences for brand campaigns across mobile and CTV.
+              </p>
+              <a
+                href="https://investors.unity.com/news/news-details/2025/New-Unity-Audience-Hub-Doubles-Engagement-for-Brand-Campaigns-Unlocking-Privacy-First-Advertising-Across-Mobile-and-CTV/default.aspx"
+                target="_blank"
+                rel="noreferrer"
+                >Audience Hub release</a
+              >
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">
+              <span class="timeline-month">Aug</span>
+              <span class="timeline-day">27</span>
+              <span class="timeline-year">2025</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-tag tag-ads">Ads</span>
+                <time datetime="2025-08-27">Aug 27, 2025</time>
+              </div>
+              <h3>Ad Quality goes free</h3>
+              <p>
+                Unity made Ad Quality available as a free, standalone SDK so every
+                publisher can audit ad experience and safety.
+              </p>
+              <a
+                href="https://investors.unity.com/news/news-details/2025/Unity-Makes-Ad-Quality-Tool-Free-to-Help-Improve-Ad-Experience-and-Player-Retention/default.aspx"
+                target="_blank"
+                rel="noreferrer"
+                >Ad Quality announcement</a
+              >
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">
+              <span class="timeline-month">Sep</span>
+              <span class="timeline-day">22</span>
+              <span class="timeline-year">2025</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-tag tag-ads">Ads SDK</span>
+                <time datetime="2025-09-22">Sep 22, 2025</time>
+              </div>
+              <h3>LevelPlay Unity Ads adapter 5.0.0</h3>
+              <p>
+                The Unity Ads adapter release aligned with SDK 4.16.1 and
+                introduced compatibility with LevelPlay 9.0.0+.
+              </p>
+              <a
+                href="https://docs.unity.com/en-us/grow/levelplay/sdk/unity/networks/changelogs/unity-ads"
+                target="_blank"
+                rel="noreferrer"
+                >Unity Ads adapter changelog</a
+              >
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">
+              <span class="timeline-month">Jan</span>
+              <span class="timeline-day">22</span>
+              <span class="timeline-year">2026</span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-tag tag-ads">Ads SDK</span>
+                <time datetime="2026-01-22">Jan 22, 2026</time>
+              </div>
+              <h3>Unity Ads SDK 4.16.6 ships</h3>
+              <p>
+                The latest SDK release focuses on stability, improving ANR
+                handling on some low-memory devices.
+              </p>
+              <a
+                href="https://docs.unity.com/en-us/grow/ads/changelog"
+                target="_blank"
+                rel="noreferrer"
+                >Unity Ads SDK changelog</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel gallery">
+        <div class="panel-header">
+          <h2>Samantha over her years at Unity</h2>
+          <p class="panel-subtitle">
+            A little reel of the moments that made the chapter special.
+          </p>
+        </div>
+        <div class="carousel" data-carousel>
+          <button class="carousel-btn prev" data-action="prev" aria-label="Previous photo">
+            ‹
+          </button>
+          <div class="carousel-track">
+            <figure class="carousel-slide is-active" data-index="0">
+              <img
+                src="assets/IMG_0236.jpeg"
+                alt="Samantha in a hoodie with two small dogs in a sunny park"
+                loading="eager"
+              />
+              <figcaption>Cozy hoodie day at the park with the pups.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="1">
+              <img
+                src="assets/IMG_20200904_145822.jpg"
+                alt="Samantha and a smiling friend with a small dog under tall trees"
+                loading="lazy"
+              />
+              <figcaption>Golden-hour smiles with the pup crew.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="2">
+              <img
+                src="assets/IMG_3035.jpeg"
+                alt="Two friends bundled up at night holding small dogs, Samantha wearing a Unity beanie"
+                loading="lazy"
+              />
+              <figcaption>Night walk adventures in the Unity beanie.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="3">
+              <img
+                src="assets/IMG_0030.jpeg"
+                alt="Samantha on a sunny trail with a small dog and a red cap"
+                loading="lazy"
+              />
+              <figcaption>Trail sunshine and tiny-dog sidekick energy.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="4">
+              <img
+                src="assets/IMG_0332.jpeg"
+                alt="Samantha and a friend with a small dog among autumn leaves"
+                loading="lazy"
+              />
+              <figcaption>Fall colors, cozy scarves, and happy faces.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="5">
+              <img
+                src="assets/IMG_1852.jpeg"
+                alt="Samantha and a friend at a canyon overlook on a bright day"
+                loading="lazy"
+              />
+              <figcaption>Grand canyon vibes and a huge sky.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="6">
+              <img
+                src="assets/IMG_2507 copy.jpeg"
+                alt="Samantha and a friend taking a selfie with rolling hills behind them"
+                loading="lazy"
+              />
+              <figcaption>Windy overlook selfie with big-sky views.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="7">
+              <img
+                src="assets/IMG_3536.jpeg"
+                alt="Samantha smiling in a car with two small dogs"
+                loading="lazy"
+              />
+              <figcaption>Car-ride cuddles with the two pups.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="8">
+              <img
+                src="assets/IMG_4867.jpeg"
+                alt="Samantha with friends and a small dog in front of a mountain view"
+                loading="lazy"
+              />
+              <figcaption>Mountain-day smiles with the crew.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="9">
+              <img
+                src="assets/IMG_5737.jpeg"
+                alt="Samantha on a boat with the Golden Gate Bridge in the background"
+                loading="lazy"
+              />
+              <figcaption>Boat day by the Golden Gate.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="10">
+              <img
+                src="assets/IMG_5889.jpeg"
+                alt="Samantha and a friend holding a giant First American Title key"
+                loading="lazy"
+              />
+              <figcaption>Celebration moment with the giant key.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="11">
+              <img
+                src="assets/IMG_7122.jpeg"
+                alt="Samantha relaxing on an inflatable raft on a calm lake"
+                loading="lazy"
+              />
+              <figcaption>Lake day lounging with paddle in hand.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="12">
+              <img
+                src="assets/IMG_7217.jpeg"
+                alt="Samantha relaxing on a leather chair with a small dog and a laptop nearby"
+                loading="lazy"
+              />
+              <figcaption>Cozy cabin downtime with a pup snuggle.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="13">
+              <img
+                src="assets/IMG_7383.jpeg"
+                alt="Samantha in winter gear standing in snowy trees"
+                loading="lazy"
+              />
+              <figcaption>Snowy trail smiles and winter glow.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="14">
+              <img
+                src="assets/IMG_7928.jpeg"
+                alt="Samantha and a friend toasting with glasses at a table"
+                loading="lazy"
+              />
+              <figcaption>Toast to the good times.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="15">
+              <img
+                src="assets/IMG_8644.jpeg"
+                alt="Samantha smiling with a small dog in a casual indoor selfie"
+                loading="lazy"
+              />
+              <figcaption>Close-up grin with the little fluffball.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="16">
+              <img
+                src="assets/RenderedImage.jpeg"
+                alt="Samantha wearing a bike helmet with a small dog in a backpack carrier"
+                loading="lazy"
+              />
+              <figcaption>Bike ride ready with a backpack co-pilot.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="17">
+              <img
+                src="assets/00000PORTRAIT_00000_BURST20200415123818473.jpg"
+                alt="Samantha wearing sunglasses and a striped shirt on a leafy sidewalk"
+                loading="lazy"
+              />
+              <figcaption>Sunny sidewalk strut in stripes.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="18">
+              <img
+                src="assets/IMG_20200328_151311.jpg"
+                alt="Samantha celebrating with a candle-lit cake at home"
+                loading="lazy"
+              />
+              <figcaption>Birthday candle glow and cozy home vibes.</figcaption>
+            </figure>
+            <figure class="carousel-slide" data-index="19">
+              <img
+                src="assets/IMG_0256.JPG"
+                alt="Samantha with family members in a group photo indoors"
+                loading="lazy"
+              />
+              <figcaption>Family photo moment with big smiles.</figcaption>
+            </figure>
+          </div>
+          <button class="carousel-btn next" data-action="next" aria-label="Next photo">
+            ›
+          </button>
+        </div>
+        <div class="carousel-dots" data-dots></div>
+      </section>
+
+      <section class="panel finale">
+        <h2>Countdown vibes only</h2>
+        <p>
+          Samantha, you crushed it. Now let's make the exit look cinematic.
+          Consider this your official permission to celebrate early.
+        </p>
+        <div class="signature">With love and a little synthwave sparkle.</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      Love, Randall
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
