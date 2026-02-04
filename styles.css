@@ -516,7 +516,8 @@ h1 .accent {
   width: 100%;
   flex: 1;
   max-height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  background: rgba(7, 7, 18, 0.6);
   border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 20px 40px rgba(7, 7, 18, 0.6);
